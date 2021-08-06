@@ -1,0 +1,17 @@
+{
+  "description": "Plugin for Now Playing OBS",
+  "manifest_version": 2,
+  "name": "Now Playing OBS Firefox Plugin",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "*://*.youtube.com/watch*",
+    "*://127.0.0.1/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/watch*"],
+      "js": ["youtube.js"]
+    }
+  ]
+}
