@@ -14,4 +14,9 @@
       "js": ["youtube.js"]
     }
   ]
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "myst33d@gmail.com"
+    }
+  }
 }
