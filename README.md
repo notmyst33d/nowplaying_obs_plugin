@@ -9,7 +9,6 @@ Plugin for Now Playing OBS app
 5. Click on gear icon
 6. Click `Install Add-on From File...`
 7. Pick the archive you downloaded
-8. Set `xpinstall.signatures.required` back to `true`
 
 ## Supported platforms
 Youtube
