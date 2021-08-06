@@ -3,9 +3,13 @@ Plugin for Now Playing OBS app
 
 ## Installing
 1. Download latest archive from Releases section
-2. Go to `about:debugging#/runtime/this-firefox`
-3. Click on `Load Temporary Add-on...`
-4. Pick the archive you downloaded
+2. Go to `about:config`
+3. Search for `xpinstall.signatures.required` and set it to `false`
+4. Go to `about:addons`
+5. Click on gear icon
+6. Click `Install Add-on From File...`
+7. Pick the archive you downloaded
+8. Set `xpinstall.signatures.required` back to `true`
 
 ## Supported platforms
 Youtube
