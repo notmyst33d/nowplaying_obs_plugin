@@ -5,13 +5,13 @@
   "version": "1.1",
   "permissions": [
     "activeTab",
-    "*://*.youtube.com/watch*",
+    "*://*.youtube.com/*",
     "*://open.spotify.com/*",
     "*://127.0.0.1/*"
   ],
   "content_scripts": [
     {
-      "matches": ["*://*.youtube.com/watch*"],
+      "matches": ["*://*.youtube.com/*"],
       "js": ["youtube.js"]
     },
     {
