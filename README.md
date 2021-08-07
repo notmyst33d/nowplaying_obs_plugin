@@ -11,4 +11,5 @@ Plugin for Now Playing OBS app
 7. Pick the archive you downloaded
 
 ## Supported platforms
-Youtube
+Youtube  
+Spotify

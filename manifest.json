@@ -6,12 +6,17 @@
   "permissions": [
     "activeTab",
     "*://*.youtube.com/watch*",
+    "*://open.spotify.com/",
     "*://127.0.0.1/*"
   ],
   "content_scripts": [
     {
       "matches": ["*://*.youtube.com/watch*"],
       "js": ["youtube.js"]
+    },
+    {
+      "matches": ["*://open.spotify.com/"],
+      "js": ["spotify.js"]
     }
   ],
   "browser_specific_settings": {
