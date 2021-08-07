@@ -6,7 +6,7 @@
   "permissions": [
     "activeTab",
     "*://*.youtube.com/watch*",
-    "*://open.spotify.com/",
+    "*://open.spotify.com/*",
     "*://127.0.0.1/*"
   ],
   "content_scripts": [
@@ -15,7 +15,7 @@
       "js": ["youtube.js"]
     },
     {
-      "matches": ["*://open.spotify.com/"],
+      "matches": ["*://open.spotify.com/*"],
       "js": ["spotify.js"]
     }
   ],
