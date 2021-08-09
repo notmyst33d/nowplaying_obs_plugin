@@ -10,6 +10,12 @@ Plugin for Now Playing OBS app
 6. Click `Install Add-on From File...`
 7. Pick the archive you downloaded
 
+## Installing on Edge
+1. Download latest archive from Releases section
+2. Go to `edge://extensions`
+3. Enable `Developer mode` switch in bottom left corner
+4. Drag and drop the archive you downloaded onto your browser window
+
 ## Tested browsers
 Edge 92.0.902.67  
 Firefox Nightly 92.0a1
