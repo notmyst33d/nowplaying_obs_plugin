@@ -11,7 +11,7 @@ Plugin for Now Playing OBS app
 7. Pick the archive you downloaded
 
 ## Tested browsers
-Edge 92.0.902.67
+Edge 92.0.902.67  
 Firefox Nightly 92.0a1
 
 ## Supported platforms
