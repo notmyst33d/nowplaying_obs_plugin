@@ -23,6 +23,7 @@ Plugin for Now Playing OBS app
 4. Drag and drop the archive you downloaded onto your browser window
 
 ## Tested browsers
+Chrome 92.0.4515.131  
 Edge 92.0.902.67  
 Firefox Nightly 92.0a1
 
