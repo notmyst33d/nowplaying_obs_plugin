@@ -9,6 +9,9 @@
     "*://open.spotify.com/*",
     "*://127.0.0.1/*"
   ],
+  "icons": {
+    "256": "icon.png"
+  },
   "content_scripts": [
     {
       "matches": ["*://*.youtube.com/*"],
