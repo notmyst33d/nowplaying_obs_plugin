@@ -2,7 +2,7 @@
   "description": "Plugin for Now Playing OBS",
   "manifest_version": 2,
   "name": "Now Playing OBS Plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "permissions": [
     "activeTab",
     "*://*.youtube.com/*",
